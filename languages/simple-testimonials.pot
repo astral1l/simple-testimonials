@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Testimonials 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2026-11-12 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: simple-testimonials\n"
+
+#: simple-testimonials.php
+msgid "Simple Testimonials"
+msgstr ""
+
+#: simple-testimonials.php
+msgid "Manage, moderate, and display client testimonials via shortcode, Gutenberg block, and AJAX submission form."
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgctxt "Post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgctxt "Post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgctxt "Admin Menu text"
+msgid "Testimonials"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgctxt "Add New on Toolbar"
+msgid "Testimonial"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Add New"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "New Testimonial"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Edit Testimonial"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "View Testimonial"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "All Testimonials"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Search Testimonials"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "No testimonials found."
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "No testimonials found in Trash."
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Author Photo"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Set author photo"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Remove author photo"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Use as author photo"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgctxt "Taxonomy general name"
+msgid "Testimonial Categories"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgctxt "Taxonomy singular name"
+msgid "Testimonial Category"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Categories"
+msgstr ""
+
+#: includes/class-st-cpt.php
+msgid "Enter author name"
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Testimonial Details"
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Position / Company"
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Optional. Up to 100 characters."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Rating"
+msgstr ""
+
+#: admin/class-st-metabox.php
+#, php-format
+msgid "%d out of 5"
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Author Email"
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Admin only. Never displayed on the public site."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Author Website URL"
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Optional. Must start with http:// or https://."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Position / Company was truncated to 100 characters."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Rating must be a number between 1 and 5. Default rating (5) was applied."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Invalid Author Email format. The email field was not saved."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Invalid Author Website URL. Please enter a valid http:// or https:// address."
+msgstr ""
+
+#: admin/class-st-metabox.php
+msgid "Company"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Testimonials Settings"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Settings"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Default Testimonials Count"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Visitor Submission Form"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Email Notifications"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Notification Email"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Star Rating Color"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Uninstall Behavior"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Configure default display options, visitor submissions, and moderation alerts."
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Please enter a valid notification email address. Reverted to previous valid email."
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Used by [testimonials] shortcode and Gutenberg block when count is not explicitly set."
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Enable public submission form via [testimonial_form] shortcode"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Send an email notification when a new testimonial awaits moderation"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Defaults to the site administrator email if left blank."
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Delete all testimonials and categories when uninstalling the plugin"
+msgstr ""
+
+#: admin/class-st-settings.php
+msgid "Save Settings"
+msgstr ""
+
+#: public/class-st-shortcode.php
+#, php-format
+msgid "Rating: %d out of 5"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Submitting..."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Please fill in your name and testimonial text."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Something went wrong while submitting your testimonial. Please try again."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Leave this field empty"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Your Name"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Your Email"
+msgstr ""
+
+#: public/class-st-form.php
+#, php-format
+msgid "%d out of 5 stars"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Your Testimonial"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Submit Testimonial"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Testimonial submissions are currently disabled."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Security verification failed. Please refresh the page and try again."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Spam submission blocked."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "You have recently submitted a testimonial. Please wait 60 seconds before submitting another."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Please select a rating between 1 and 5."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Could not save your testimonial. Please try again later."
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Thank you! Your testimonial has been submitted and will appear once approved by a moderator."
+msgstr ""
+
+#: public/class-st-form.php
+#, php-format
+msgid "[%s] New testimonial awaiting moderation"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "A new client testimonial has been submitted and is awaiting moderation:"
+msgstr ""
+
+#: public/class-st-form.php
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: public/class-st-form.php
+#, php-format
+msgid "Position / Company: %s"
+msgstr ""
+
+#: public/class-st-form.php
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: public/class-st-form.php
+msgid "Testimonial:"
+msgstr ""
+
+#: public/class-st-form.php
+#, php-format
+msgid "Review and moderate: %s"
+msgstr ""
+
+#: blocks/testimonials-list/block.json
+msgctxt "block title"
+msgid "Testimonials"
+msgstr ""
+
+#: blocks/testimonials-list/block.json
+msgctxt "block description"
+msgid "Displays published client testimonials with rating, category, layout, and sorting controls."
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "All categories"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Number of testimonials"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Using plugin default count from Settings."
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Category"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Category slug"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Leave empty to display all categories, or enter comma-separated slugs."
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Minimum rating"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Layout"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Grid"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "List"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Order by"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Date (newest first)"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Rating (highest first)"
+msgstr ""
+
+#: blocks/testimonials-list/editor.js
+msgid "Random"
+msgstr ""

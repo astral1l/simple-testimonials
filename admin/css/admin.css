@@ -1,0 +1,32 @@
+.st-required-mark {
+	color: #d63638;
+	font-weight: 600;
+	margin-left: 2px;
+}
+
+.st-admin-stars {
+	color: var(--st-admin-star-color, #f59e0b);
+	font-size: 15px;
+	letter-spacing: 1px;
+	vertical-align: middle;
+}
+
+.st-admin-stars__empty {
+	color: #c3c4c7;
+}
+
+.st-admin-rating-num {
+	color: #50575e;
+	font-size: 12px;
+	font-weight: 600;
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+.column-st_rating {
+	width: 140px;
+}
+
+.column-st_company {
+	width: 18%;
+}

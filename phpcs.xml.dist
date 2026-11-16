@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ruleset name="Simple Testimonials Coding Standards">
+	<description>WordPress Coding Standards for Simple Testimonials plugin.</description>
+
+	<file>.</file>
+
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+	<arg name="basepath" value="."/>
+
+	<config name="minimum_supported_wp_version" value="6.6"/>
+	<config name="testVersion" value="8.1-"/>
+
+	<rule ref="WordPress"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="simple-testimonials"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="simple_testimonials"/>
+				<element value="SimpleTestimonials"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- WordPress 6.5+ native PHP translation files require {domain}-{locale}.l10n.php naming -->
+	<rule ref="WordPress.Files.FileName.NotHyphenatedLowercase">
+		<exclude-pattern>languages/*.l10n.php</exclude-pattern>
+	</rule>
+</ruleset>

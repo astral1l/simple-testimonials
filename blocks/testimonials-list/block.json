@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "simple-testimonials/list",
+	"version": "1.0.0",
+	"title": "Testimonials",
+	"category": "widgets",
+	"icon": "testimonial",
+	"description": "Displays published client testimonials with rating, category, layout, and sorting controls.",
+	"textdomain": "simple-testimonials",
+	"editorScript": "st-block-editor",
+	"editorStyle": "st-frontend-style",
+	"attributes": {
+		"count": {
+			"type": "number",
+			"default": 0
+		},
+		"category": {
+			"type": "string",
+			"default": ""
+		},
+		"min_rating": {
+			"type": "number",
+			"default": 1
+		},
+		"layout": {
+			"type": "string",
+			"default": "grid"
+		},
+		"orderby": {
+			"type": "string",
+			"default": "date"
+		},
+		"align": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	}
+}

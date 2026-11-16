@@ -1,0 +1,59 @@
+{
+  "translation-revision-date": "2026-11-12 12:00+0000",
+  "generator": "SimpleTestimonials Build",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);",
+        "lang": "ru_RU"
+      },
+      "Testimonials Settings": [
+        "Настройки отзывов"
+      ],
+      "All categories": [
+        "Все категории"
+      ],
+      "Number of testimonials": [
+        "Количество отзывов"
+      ],
+      "Using plugin default count from Settings.": [
+        "Используется количество по умолчанию из настроек плагина."
+      ],
+      "Category": [
+        "Категория"
+      ],
+      "Category slug": [
+        "Ярлык категории (slug)"
+      ],
+      "Leave empty to display all categories, or enter comma-separated slugs.": [
+        "Оставьте пустым для вывода всех категорий или укажите ярлыки через запятую."
+      ],
+      "Minimum rating": [
+        "Минимальная оценка"
+      ],
+      "Layout": [
+        "Макет отображения"
+      ],
+      "Grid": [
+        "Сетка (Grid)"
+      ],
+      "List": [
+        "Список (List)"
+      ],
+      "Order by": [
+        "Сортировка"
+      ],
+      "Date (newest first)": [
+        "По дате (сначала новые)"
+      ],
+      "Rating (highest first)": [
+        "По оценке (сначала высокие)"
+      ],
+      "Random": [
+        "Случайный порядок"
+      ]
+    }
+  }
+}
